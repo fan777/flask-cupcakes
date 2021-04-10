@@ -1,0 +1,15 @@
+label {
+  width: 75px;
+  display: inline-block;
+}
+
+input {
+  width: 200px;
+}
+
+img {
+  border: 1px solid black;
+  margin: 2px;
+  max-width: 200px;
+  max-height: 200px;
+}

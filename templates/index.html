@@ -6,10 +6,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cupcakes</title>
+  <link rel="stylesheet" href="/static/style.css" type="text/css">
 </head>
 
 <body>
+  <ul id="cupcakes-list">
 
+  </ul>
+
+  <form id="cupcake-form">
+    <div>
+      <label for="flavor">flavor</label>
+      <input name="flavor" id="flavor" required type="text">
+    </div>
+    <div>
+      <label for="size">size</label>
+      <input name="size" id="size" required type="text">
+    </div>
+    <div>
+      <label for="rating">rating</label>
+      <input name="rating" id="rating" required type="number" step=any>
+    </div>
+    <div>
+      <label for="image">image</label>
+      <input name="image" id="image" type="url">
+    </div>
+    <button>submit</button>
+  </form>
+
+  <script src="https://unpkg.com/jquery"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="/static/app.js"></script>
 </body>
 
 </html>
